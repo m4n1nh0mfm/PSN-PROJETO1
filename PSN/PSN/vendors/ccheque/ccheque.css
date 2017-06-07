@@ -1,0 +1,98 @@
+
+/* *** HEADER *** */
+#header { width:100%; }
+#header .brasao { width:20%;text-align: center; }
+#header img.brasaoImg { height:75px;width:75px; }
+#header .infoTitulo { width:80%;padding:5px 10px; }
+#header div { margin-top:10px; }
+#header span { font-size:1.1em; }
+
+/* *** SERVIDOR *** */
+#servidor { width:100%;margin-top:2px; }
+#servidor div { display:block;margin:1%; }
+
+#servidor .coluna { width:50%; }
+
+#servidor .matricula { width:18%;padding:1%; }
+#servidor .nomeServidor { width:78%;padding:1%; }
+
+#servidor .subUnid { width:98%;padding:1%; }
+#servidor .planoCargos { width:98%;padding:1%; }
+
+#servidor .admissao { width:18%;padding:1%; }
+#servidor .funcao { width:78%;padding:1%; }
+
+#servidor .lotacao { width:98%;padding:1%; }
+
+#servidor .documento { width:32%;padding:1%; }
+#servidor .registro { width:32%;padding:1%; }
+#servidor .pis { width:30%;padding:1%; }
+
+/* *** VALORES *** */
+#valores { width:100%;margin-top:2px; }
+#valores table { width:100%;height:200px; }
+
+#valores .coluna { width:49%;float:left;margin:0 0.5% 0; }
+
+#valores .tituloValores { background: #E1E1E1;padding:1%;margin:0; }
+
+#valores .codigo { width:8%;padding:1%; }
+#valores .descricao { width:42%;padding:1%; }
+#valores .quantidade { width:10%;padding:1%; }
+#valores .valor { width:15%;padding:1%; }
+
+#valores .totalLeg { padding:1%; }
+#valores .totalVal { padding:1%; }
+
+#valores .salarioLiqLeg { padding:1%; }
+#valores .salarioLiqVal { padding:1%; }
+
+#totalValores { width:100%;padding:1%;margin-bottom:10px; }
+
+/* *** IMPOSTO *** */
+#imposto { width:100%;margin-top:2px; }
+#imposto div { display:block;margin:1%; }
+
+#imposto .coluna { width:50%; }
+
+#imposto .vencto { width:48%;padding:1%; }
+#imposto .baseCalc { width:48%;padding:1%; }
+
+#imposto .baseIrrf { width:32%;padding:1%; }
+#imposto .dependIrrf { width:32%;padding:1%; }
+#imposto .deducao { width:30%;padding:1%; }
+
+/* *** BANCO *** */
+#banco { width:100%;margin-top:2px; }
+#banco div { display:block; }
+
+#banco .coluna { width:auto; }
+
+#banco .infoBanco { padding:1%;width: 47.5%; }
+
+/* *** CUT *** */
+#cut { display:block;margin:2px 0; }
+#cut .borderCut { font:italic 0.85em Arial;border-bottom: 1px dotted #CCC; }
+
+/* *** SIGN *** */
+#sign { display:block;margin:2% 0; }
+#sign .dataPagto { width:38%;padding:1%;float:left; }
+#sign .signServ { width:58%;padding:1%;float:right; }
+
+
+/* *** ELEMENTOS *** */
+.border { border:1px solid #000; }
+.bold { font-weight: bold; }
+.rightText { text-align: right; }
+.centerText { text-align: center; }
+.vertTop { vertical-align:top; }
+.rightAlign { float: right; }
+.leftAlign { float: left; }
+.padLeft5 { padding-left:5px; }
+.padRight5 { padding-right:5px; }
+.radio5{
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.block { display:block; }
