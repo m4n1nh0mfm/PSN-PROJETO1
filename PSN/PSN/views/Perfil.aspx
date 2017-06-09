@@ -55,27 +55,27 @@
                       <h4>Skills</h4>
                       <ul class="list-unstyled user_data">
                         <li>
-                          <p>Web Applications</p>
+                          Web Applications
                           <div class="progress progress_sm">
-                            <div class="progress-bar bg-green" role="progressbar" data-transitiongoal="50"></div>
+                            <div class="progress-bar progress-bar-primary" role="progressbar" data-transitiongoal="50"></div>
                           </div>
                         </li>
                         <li>
-                          <p>Website Design</p>
+                          Website Design
                           <div class="progress progress_sm">
-                            <div class="progress-bar bg-green" role="progressbar" data-transitiongoal="70"></div>
+                            <div class="progress-bar progress-bar-primary" role="progressbar" data-transitiongoal="70"></div>
                           </div>
                         </li>
                         <li>
-                          <p>Automation & Testing</p>
+                          Automation & Testing
                           <div class="progress progress_sm">
-                            <div class="progress-bar bg-green" role="progressbar" data-transitiongoal="30"></div>
+                            <div class="progress-bar progress-bar-primary" role="progressbar" data-transitiongoal="30"></div>
                           </div>
                         </li>
                         <li>
-                          <p>UI / UX</p>
+                          UI / UX
                           <div class="progress progress_sm">
-                            <div class="progress-bar bg-green" role="progressbar" data-transitiongoal="50"></div>
+                            <div class="progress-bar progress-bar-primary" role="progressbar" data-transitiongoal="50"></div>
                           </div>
                         </li>
                       </ul>
@@ -243,6 +243,12 @@
     
     <!-- Custom Theme Scripts -->
     <script src="../build/js/custom.min.js"></script>
+    
+    <script type="text/javascript">
+    	$(document).ready(function() {
+    	  $('.progress .progress-bar').progressbar({display_text: 'fill', use_percentage: false});
+    	});
+    </script>
 
     <script>
       $(function() {

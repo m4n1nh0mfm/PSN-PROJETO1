@@ -1,4 +1,4 @@
-.daterangepicker .ranges li {
+﻿.daterangepicker .ranges li {
   color: #73879C; }
   .daterangepicker .ranges li.active, .daterangepicker .ranges li:hover {
     background: #536A7F;
@@ -3858,7 +3858,9 @@ fieldset {
   height: 10px !important; }
 
 .progress.progress_sm .progress-bar {
-  height: 10px !important; }
+  height: 10px !important; 
+  line-height: 1;
+}
 
 .dashboard_graph p {
   margin: 0 0 4px; }
